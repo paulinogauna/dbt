@@ -1,0 +1,11 @@
+version: 2
+
+sources:
+  - name: demo_data
+    database: DEMO
+    schema: DEMO_SCHEMA
+    tables:
+      - name: bike
+        description: "Records of all sales bikes."
+        
+      - name: weather
