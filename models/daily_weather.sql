@@ -14,7 +14,8 @@ from {{ source('demo_data', 'weather') }}
 
 
 
-),
+)
+,
 
 daily_weather_agg as (
 
